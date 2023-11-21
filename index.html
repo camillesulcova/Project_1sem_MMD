@@ -7,21 +7,31 @@
     <link rel="stylesheet" href="css/bsstyle.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.3.67/css/materialdesignicons.min.css">
-    
+
+      <style>
+       @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,800;1,300&family=Poppins:wght@300;400&display=swap');
+      </style>
+
+      <link rel="stylesheet" href="https://use.typekit.net/hns7jnu.css">
+  
 </head>
 <body>
  <div class="container-nav-fluid g-0">
 
-    <div class="row nav bg-primary">
+    <div class="row-nav bg-primary">
         <div class="row">
 
             <div class="col-7">Camille Sulcova</div>
-            <div class="col-1">About</div>
-            <div class="col-1">Projects</div>
-            <div class="col-1">Store</div>
-            <div class="col-1">Contact</div>
-            <div class="col-1"><span class="mdi mdi-basket"></span></div>
-        
+            
+
+
+            <div class="col-1 text-secondary"><a href="subpages/about.html">About</a></div>
+            <div class="col-1 text-secondary"><a href="subpages/project.html">Projects</a></div>
+            <div class="col-1 text-secondary"><a href="subpages/store.html">Store</a></div>
+            <div class="col-1 text-secondary"><a href="subpages/contact.html">Contact</a></div>
+            <div class="col-1 text-secondary"><a href="subpages/basket.html"><span class="mdi mdi-basket"></span></a></div>
+
+          </div>
         
         </div>
      </div>
@@ -29,10 +39,14 @@
 
  <div class="container-fluid g-0">
     <div class="row hero">
-        <div class="col-7 offset-1 z-3 p-5"> 
-            <h1 class="fs-1 text-secondary">Welcome to my creative space</h1>
-            <p style="color: 2D2D2D;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus et modi, ut sit nam fugit quae, obcaecati voluptatum saepe numquam dignissimos aspernatur error ipsum dicta? Architecto rerum repellat commodi.</p>
-            <button class="btn btn-success" type="button">Button</button>
+        <div class="col-5 offset-1 z-3"> 
+            <h1 class="headline">Welcome to my creative space</h1>
+            <p class="top-p" style="color: 2D2D2D;"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi accusamus et modi, ut sit nam fugit quae, obcaecati voluptatum saepe numquam dignissimos aspernatur error ipsum dicta? Architecto rerum repellat commodi.</p>
+
+            <a href="subpages/about.html">
+            <button class="btn btn-success" type="button">Read more</button>
+          </a>
+          
         </div>
         <div class="hero-bg-img">
 
@@ -56,21 +70,21 @@
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="img/card1.png">
         <div class="card-body">
-          <h5 class="card-title">Ceramics</h5>
+          <h5 class="card-title-css">Ceramics</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima magnam, saepe minus perferendis earu</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="img/card2.png">
         <div class="card-body">
-          <h5 class="card-title">Knitting</h5>
+          <h5 class="card-title-css">Knitting</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima magnam, saepe minus perferendis earu</p>
         </div>
       </div>
       <div class="card" style="width: 18rem;">
         <img class="card-img-top" src="img/card3.png">
         <div class="card-body">
-          <h5 class="card-title">Sewing</h5>
+          <h5 class="card-title-css">Sewing</h5>
           <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima magnam, saepe minus perferendis earu</p>
         </div>
       </div>
@@ -81,14 +95,14 @@
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/card4.png">
           <div class="card-body">
-            <h5 class="card-title">Crocheting</h5>
+            <h5 class="card-title-css">Crocheting</h5>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima magnam, saepe minus perferendis earu</p>
           </div>
         </div>
         <div class="card" style="width: 18rem;">
           <img class="card-img-top" src="img/card5.png">
                 <div class="card-body">
-                  <h5 class="card-title">Painting</h5>
+                  <h5 class="card-title-css">Painting</h5>
                   <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima magnam, saepe minus perferendis earu</p>
                 </div>
         </div>
@@ -110,12 +124,22 @@
         <div class="row section-three">
             <div class="card section-three" style="border: none; border-radius: none;">
                 <img src="img/card6.png" class="card-img-top">
-            
+            <br>
                 <div class="card-body p-4">
-                  <h5 class="card-title">Mug collection</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                </div>
 
+                  <h5 class="card-title-css">Mug collection</h5>
+                  <p class="card-text-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                </div>
+            
+                
+              </div>
+          
+
+            
+                <div class="col-5"></div>
+                <div class="col-2"><button type="button" class="btn btn-info" > <a href="subpages/project.html">See all projects</a></button>
+                </div>
+                <div class="col-5"></div>
               </div>
               
 
@@ -144,7 +168,8 @@
               <div class="mb-3 w-75">
                 <textarea class="form-control bg-info" id="exampleFormControlTextarea1" placeholder="Say hi.." rows="3"></textarea>
               </div>
-                
+
+              <button type="button" class="btn btn-info">Submit</button>
     
             </div>
         </div>

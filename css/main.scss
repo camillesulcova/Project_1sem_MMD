@@ -6,15 +6,72 @@ $danger:#DED3BB;
 $info: #AE9F88;
 */
 
+body{
+  color: #2D2D2D;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+a{
+  color: #2D2D2D;
+  text-decoration: none;
+}
+
+p{
+  color: #2D2D2D;
+  
+}
+
+
+.headline{
+  color: #2D2D2D;
+  font-family: "tenso", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  font-size:60px;
+}
+
+.card-text{
+  color: #2D2D2D;
+}
+.card-text-1{
+  color: #F9F9F9;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.card-title-css{
+  font-family: 'Poppins';
+  font-weight: 800;
+}
+.btn{
+color: #2D2D2D;
+}
+
+.btn-success{
+  color: #F9F9F9;
+  text-decoration: none;
+  
+
+}
 
 
 
 
-.row.nav{
+
+.col-1-nav{
+  display: flex;
+  color:#2D2D2D;
+
+}
+
+
+.row-nav{
   height: 40px;
   justify-content: center;
-  padding-top:5px;
-  padding-bottom: 5px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 .hero { 
     background: url(../img/background.jpg) no-repeat center center fixed; 
@@ -25,6 +82,17 @@ $info: #AE9F88;
     height:600px;
     position: relative;
   }
+
+  h1{
+    padding-top: 130px;
+   
+  }
+
+  .top-p{
+    padding-bottom: 20px;
+    
+  }
+
 img.bg {
     /* Set rules to fill background */
     min-height: 100%;
@@ -76,11 +144,12 @@ img.bg {
 
 .card.section-three .card-body{
 position: absolute;
-bottom: 10px; /* Adjust as per your requirement */
+bottom: 32px; /* Adjust as per your requirement */
 left: 8.33%; /* Adjust as per your requirement */
 color: white;
 background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value to change the transparency */
-padding: 10px;
+padding: 18px;
+border-radius: 10px;
 margin-right:8.33%;
 margin-left:8.33%;
 }
@@ -89,6 +158,8 @@ margin-left:8.33%;
   display: flex; 
   justify-content: center;
 }
+
+
 
 .footer {
   padding:100px 0;
